@@ -7,19 +7,37 @@
 //
 
 import UIKit
+import Firebase
+import MapKit
+import CoreLocation
+import Firebase
+import FirebaseDatabase
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController{
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    
+    //Login Screen
+    override func viewDidAppear(_ animated: Bool) {
+        let isUserLoggedIn = UserDefaults.standard.bool(forKey: "isUserLoggedIn");
+        
+        if(!isUserLoggedIn)
+        {        self.performSegue(withIdentifier: "loginView", sender: self);}
+        
     }
 
-
 }
+
+
+
+
 
