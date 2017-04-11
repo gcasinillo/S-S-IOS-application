@@ -21,6 +21,7 @@
 		D483FB961E257057005DF292 /* SubstationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483FB951E257057005DF292 /* SubstationTableViewController.swift */; };
 		D49359031E201DA3009B6B38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D49359021E201DA3009B6B38 /* GoogleService-Info.plist */; };
 		D497D3DB1E812C9D002EE351 /* RecentCallsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D497D3DA1E812C9D002EE351 /* RecentCallsTableViewController.swift */; };
+		D49870841E9C855E003AAB1E /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49870831E9C855E003AAB1E /* CGRect.swift */; };
 		D49B0BD21E8D516400C608AA /* DocumentStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B0BD11E8D516400C608AA /* DocumentStruct.swift */; };
 		D49B0BD41E8D526D00C608AA /* HazardStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B0BD31E8D526D00C608AA /* HazardStruct.swift */; };
 		D49B0BD61E8D531A00C608AA /* PhoneInfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B0BD51E8D531A00C608AA /* PhoneInfoStruct.swift */; };
@@ -31,6 +32,7 @@
 		D4BAC3BD1E481D6800406F8B /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC3BC1E481D6800406F8B /* VideoDetailViewController.swift */; };
 		D4BB91571E7F1EAF00348F75 /* PhoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB91561E7F1EAF00348F75 /* PhoneTableViewController.swift */; };
 		D4BB91591E7F4B2900348F75 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB91581E7F4B2900348F75 /* CallViewController.swift */; };
+		D4BE50C71E9BDB38005A8D77 /* CamPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BE50C61E9BDB38005A8D77 /* CamPicViewController.swift */; };
 		D4C08FE71E9A25BC00E96997 /* CamPicInfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C08FE61E9A25BC00E96997 /* CamPicInfoStruct.swift */; };
 		D4C08FE91E9A266700E96997 /* CameraImagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C08FE81E9A266700E96997 /* CameraImagesCollectionViewController.swift */; };
 		D4C08FEB1E9A272B00E96997 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C08FEA1E9A272B00E96997 /* CollectionViewCell.swift */; };
@@ -59,6 +61,7 @@
 		D483FB951E257057005DF292 /* SubstationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubstationTableViewController.swift; sourceTree = "<group>"; };
 		D49359021E201DA3009B6B38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D497D3DA1E812C9D002EE351 /* RecentCallsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentCallsTableViewController.swift; sourceTree = "<group>"; };
+		D49870831E9C855E003AAB1E /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		D49B0BD11E8D516400C608AA /* DocumentStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentStruct.swift; sourceTree = "<group>"; };
 		D49B0BD31E8D526D00C608AA /* HazardStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HazardStruct.swift; sourceTree = "<group>"; };
 		D49B0BD51E8D531A00C608AA /* PhoneInfoStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneInfoStruct.swift; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 		D4BAC3BC1E481D6800406F8B /* VideoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
 		D4BB91561E7F1EAF00348F75 /* PhoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneTableViewController.swift; sourceTree = "<group>"; };
 		D4BB91581E7F4B2900348F75 /* CallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		D4BE50C61E9BDB38005A8D77 /* CamPicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamPicViewController.swift; sourceTree = "<group>"; };
 		D4C08FE61E9A25BC00E96997 /* CamPicInfoStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamPicInfoStruct.swift; sourceTree = "<group>"; };
 		D4C08FE81E9A266700E96997 /* CameraImagesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraImagesCollectionViewController.swift; sourceTree = "<group>"; };
 		D4C08FEA1E9A272B00E96997 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				D4E5E82D1E82B77700B6FA1A /* Extensions */,
 				D49FA3AE1E33479B00CEF19A /* Model */,
 				D44131381E1FDFD30028D768 /* ViewController.swift */,
+				D4BE50C61E9BDB38005A8D77 /* CamPicViewController.swift */,
 				D404671E1E241BA2002B4638 /* LoginViewController.swift */,
 				D483FB951E257057005DF292 /* SubstationTableViewController.swift */,
 				D4C08FE81E9A266700E96997 /* CameraImagesCollectionViewController.swift */,
@@ -180,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				D4E5E82E1E82B7E000B6FA1A /* PhoneConversion.swift */,
+				D49870831E9C855E003AAB1E /* CGRect.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 				D483FB961E257057005DF292 /* SubstationTableViewController.swift in Sources */,
 				D4C08FEB1E9A272B00E96997 /* CollectionViewCell.swift in Sources */,
 				D47E96CD1E3E543F00520C53 /* DocumentsTableViewController.swift in Sources */,
+				D49870841E9C855E003AAB1E /* CGRect.swift in Sources */,
 				D4E5E82F1E82B7E000B6FA1A /* PhoneConversion.swift in Sources */,
 				D4C08FE91E9A266700E96997 /* CameraImagesCollectionViewController.swift in Sources */,
 				D4EFBE541E46139F00545E7B /* VideoTableViewController.swift in Sources */,
@@ -337,6 +344,7 @@
 				D4D188FF1E96E97E003E875B /* SubstationDocumentViewController.swift in Sources */,
 				D49B0BDA1E8D568800C608AA /* VideoInfoStruct.swift in Sources */,
 				D49B0BD61E8D531A00C608AA /* PhoneInfoStruct.swift in Sources */,
+				D4BE50C71E9BDB38005A8D77 /* CamPicViewController.swift in Sources */,
 				D4BB91571E7F1EAF00348F75 /* PhoneTableViewController.swift in Sources */,
 				D4BAC3BD1E481D6800406F8B /* VideoDetailViewController.swift in Sources */,
 			);

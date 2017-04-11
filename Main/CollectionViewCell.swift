@@ -18,7 +18,7 @@ class CollectionViewCell: UICollectionViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        self.makeItRound()
+       // self.makeItRound()
     }
     
     
@@ -26,8 +26,7 @@ class CollectionViewCell: UICollectionViewCell {
     
     func makeItRound(){
         self.cameraImageView.layer.masksToBounds=true
-    
-    self.cameraImageView.layer.cornerRadius = self.cameraImageView.frame.size.width/2.0
+        self.cameraImageView.layer.cornerRadius = self.cameraImageView.frame.size.width/2.0
     
     }
     
