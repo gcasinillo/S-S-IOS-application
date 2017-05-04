@@ -14,12 +14,15 @@ import Firebase
 import FirebaseDatabase
 
 
+
 class ViewController: UIViewController{
-    
+    var currentDeviceOrientation: UIDeviceOrientation = .unknown
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
+    
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -28,14 +31,17 @@ class ViewController: UIViewController{
     
     //Login Screen
     override func viewDidAppear(_ animated: Bool) {
+        
+        super.viewDidAppear(animated)
         let isUserLoggedIn = UserDefaults.standard.bool(forKey: "isUserLoggedIn");
         
         if(!isUserLoggedIn)
         {        self.performSegue(withIdentifier: "loginView", sender: self);}
         
     }
+    }
+    
 
-}
 
 
 

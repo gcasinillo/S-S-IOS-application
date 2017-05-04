@@ -67,12 +67,12 @@ class DocumentsTableViewController: UITableViewController {
         let delimiter = "."
         var token = (myVar.subDocumentLink).components(separatedBy:delimiter)
         
-        if token[1] ==  "jpg"  || token[1] ==  "jpeg"   || token[1] ==  "gif" {
+        if token[1] ==  "jpg"  || token[1] ==  "jpeg"   || token[1] ==  "gif" || token[1] ==  "png"{
            performSegue(withIdentifier: "imageSegue", sender: indexPath)
         }
         
         
-        else if token[1] ==  "pdf" || token[1] ==  "docx"   || token[1] ==  "txt"  || token[1] ==  "rtf"  {
+        else if token[1] ==  "pdf" || token[1] ==  "docx"   || token[1] ==  "txt"  || token[1] ==  "rtf"  || token[1] ==  "pptx" || token[1] ==  "ppt"{
              performSegue(withIdentifier: "theDocumentSegue", sender: indexPath)
         }
 

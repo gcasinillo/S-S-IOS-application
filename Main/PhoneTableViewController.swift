@@ -21,7 +21,6 @@ class PhoneTableViewController: UITableViewController, UISearchResultsUpdating {
     var phoneInfoFiltered = [PhoneInfoStruct]()
     
     
-    
     var ref: FIRDatabaseReference!
 
     override func viewDidLoad() {
@@ -102,29 +101,29 @@ class PhoneTableViewController: UITableViewController, UISearchResultsUpdating {
     }
  
 
-  
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "callSegue" {
-            if let destination = segue.destination as? CallViewController {
-                let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow! as NSIndexPath
-                let myVar: PhoneInfoStruct
-                
-                if (searchController.isActive)
-                {
-                    myVar = phoneInfoFiltered[indexPath.row]
-                    destination.theFirstName = myVar.contactFirstName
-                    destination.theLastName = myVar.contactLastName
-                    destination.theNumber =  myVar.contactNumber
-                }
-                else{
-                    myVar = phoneInfo[indexPath.row]
-                    destination.theFirstName = myVar.contactFirstName
-                    destination.theLastName = myVar.contactLastName
-                    destination.theNumber =  myVar.contactNumber
-                }
-            }
-        }
-    }
+//  
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "callSegue" {
+//            if let destination = segue.destination as? CallViewController {
+//                let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow! as NSIndexPath
+//                let myVar: PhoneInfoStruct
+//                
+//                if (searchController.isActive)
+//                {
+//                    myVar = phoneInfoFiltered[indexPath.row]
+//                    destination.theFirstName = myVar.contactFirstName
+//                    destination.theLastName = myVar.contactLastName
+//                    destination.theNumber =  myVar.contactNumber
+//                }
+//                else{
+//                    myVar = phoneInfo[indexPath.row]
+//                    destination.theFirstName = myVar.contactFirstName
+//                    destination.theLastName = myVar.contactLastName
+//                    destination.theNumber =  myVar.contactNumber
+//                }
+//            }
+//        }
+//    }
     
     //Search
     func filterContentForSearchText(searchText: String, scope: String = "Title")

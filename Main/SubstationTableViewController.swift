@@ -11,17 +11,30 @@ import Firebase
 import FirebaseDatabase
 
 class SubstationTableViewController: UITableViewController, UISearchResultsUpdating{
+    
+    
+    
+    
 
     var substationData = [SubstationStruct]()
     var filteredSubstationData = [SubstationStruct]()
     var searchController:UISearchController!
     var ref: FIRDatabaseReference!
+    var refresher: UIRefreshControl!
 
 
     @IBOutlet weak var searchBar: UISearchBar!
   
     
     override func viewDidLoad() {
+        
+        
+       // let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        //appDelegate.shouldRotate = true // or false to disable rotation
+        
+        
+        
+        
         super.viewDidLoad()
         let databaseRef = FIRDatabase.database().reference()
         
@@ -163,7 +176,7 @@ class SubstationTableViewController: UITableViewController, UISearchResultsUpdat
         }
     }
     
-    
+
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let indexPath = tableView.indexPathForSelectedRow!
         if tableView.cellForRow(at: indexPath as IndexPath) != nil {

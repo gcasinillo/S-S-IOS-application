@@ -20,6 +20,8 @@ class SubstationDocumentViewController: UIViewController {
    // private var projectURL: URL!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        webView.scalesPageToFit = true;
         let storageRef = FIRStorage.storage().reference().child(SubStatName + "/" + filename);
         let islandRef = storageRef
     

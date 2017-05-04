@@ -11,7 +11,6 @@
 		D400CA071E62E0420085DAE0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D400CA061E62E0420085DAE0 /* CoreLocation.framework */; };
 		D404671F1E241BA2002B4638 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D404671E1E241BA2002B4638 /* LoginViewController.swift */; };
 		D41B72F51E360E7700126853 /* SubstationImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B72F41E360E7700126853 /* SubstationImageViewController.swift */; };
-		D420F4AF1E82DE7400A932B4 /* DialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420F4AE1E82DE7400A932B4 /* DialViewController.swift */; };
 		D44131371E1FDFD30028D768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44131361E1FDFD30028D768 /* AppDelegate.swift */; };
 		D44131391E1FDFD30028D768 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44131381E1FDFD30028D768 /* ViewController.swift */; };
 		D441313E1E1FDFD30028D768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D441313D1E1FDFD30028D768 /* Assets.xcassets */; };
@@ -20,18 +19,16 @@
 		D47E96D01E3E581200520C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47E96CE1E3E581200520C53 /* Main.storyboard */; };
 		D483FB961E257057005DF292 /* SubstationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483FB951E257057005DF292 /* SubstationTableViewController.swift */; };
 		D49359031E201DA3009B6B38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D49359021E201DA3009B6B38 /* GoogleService-Info.plist */; };
-		D497D3DB1E812C9D002EE351 /* RecentCallsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D497D3DA1E812C9D002EE351 /* RecentCallsTableViewController.swift */; };
 		D49870841E9C855E003AAB1E /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49870831E9C855E003AAB1E /* CGRect.swift */; };
 		D49B0BD21E8D516400C608AA /* DocumentStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B0BD11E8D516400C608AA /* DocumentStruct.swift */; };
 		D49B0BD41E8D526D00C608AA /* HazardStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B0BD31E8D526D00C608AA /* HazardStruct.swift */; };
 		D49B0BD61E8D531A00C608AA /* PhoneInfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B0BD51E8D531A00C608AA /* PhoneInfoStruct.swift */; };
-		D49B0BD81E8D558800C608AA /* RecentCallStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B0BD71E8D558800C608AA /* RecentCallStruct.swift */; };
 		D49B0BDA1E8D568800C608AA /* VideoInfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B0BD91E8D568800C608AA /* VideoInfoStruct.swift */; };
+		D4A18FE01EA4FEBC006F7AB8 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A18FDF1EA4FEBC006F7AB8 /* AppUtility.swift */; };
 		D4B877001E27F1B100604B68 /* SubstationDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B876FF1E27F1B100604B68 /* SubstationDetailedViewController.swift */; };
 		D4B877021E284F7700604B68 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B877011E284F7700604B68 /* MapKit.framework */; };
 		D4BAC3BD1E481D6800406F8B /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC3BC1E481D6800406F8B /* VideoDetailViewController.swift */; };
 		D4BB91571E7F1EAF00348F75 /* PhoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB91561E7F1EAF00348F75 /* PhoneTableViewController.swift */; };
-		D4BB91591E7F4B2900348F75 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB91581E7F4B2900348F75 /* CallViewController.swift */; };
 		D4BE50C71E9BDB38005A8D77 /* CamPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BE50C61E9BDB38005A8D77 /* CamPicViewController.swift */; };
 		D4C08FE71E9A25BC00E96997 /* CamPicInfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C08FE61E9A25BC00E96997 /* CamPicInfoStruct.swift */; };
 		D4C08FE91E9A266700E96997 /* CameraImagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C08FE81E9A266700E96997 /* CameraImagesCollectionViewController.swift */; };
@@ -49,7 +46,6 @@
 		D400CA061E62E0420085DAE0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D404671E1E241BA2002B4638 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D41B72F41E360E7700126853 /* SubstationImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubstationImageViewController.swift; sourceTree = "<group>"; };
-		D420F4AE1E82DE7400A932B4 /* DialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialViewController.swift; sourceTree = "<group>"; };
 		D44131331E1FDFD20028D768 /* Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44131361E1FDFD30028D768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44131381E1FDFD30028D768 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,18 +56,17 @@
 		D47E96CF1E3E581200520C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D483FB951E257057005DF292 /* SubstationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubstationTableViewController.swift; sourceTree = "<group>"; };
 		D49359021E201DA3009B6B38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D497D3DA1E812C9D002EE351 /* RecentCallsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentCallsTableViewController.swift; sourceTree = "<group>"; };
 		D49870831E9C855E003AAB1E /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		D49870851EA17C93003AAB1E /* Main.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Main.entitlements; sourceTree = "<group>"; };
 		D49B0BD11E8D516400C608AA /* DocumentStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentStruct.swift; sourceTree = "<group>"; };
 		D49B0BD31E8D526D00C608AA /* HazardStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HazardStruct.swift; sourceTree = "<group>"; };
 		D49B0BD51E8D531A00C608AA /* PhoneInfoStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneInfoStruct.swift; sourceTree = "<group>"; };
-		D49B0BD71E8D558800C608AA /* RecentCallStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentCallStruct.swift; sourceTree = "<group>"; };
 		D49B0BD91E8D568800C608AA /* VideoInfoStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoInfoStruct.swift; sourceTree = "<group>"; };
+		D4A18FDF1EA4FEBC006F7AB8 /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 		D4B876FF1E27F1B100604B68 /* SubstationDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubstationDetailedViewController.swift; sourceTree = "<group>"; };
 		D4B877011E284F7700604B68 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D4BAC3BC1E481D6800406F8B /* VideoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
 		D4BB91561E7F1EAF00348F75 /* PhoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneTableViewController.swift; sourceTree = "<group>"; };
-		D4BB91581E7F4B2900348F75 /* CallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
 		D4BE50C61E9BDB38005A8D77 /* CamPicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamPicViewController.swift; sourceTree = "<group>"; };
 		D4C08FE61E9A25BC00E96997 /* CamPicInfoStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamPicInfoStruct.swift; sourceTree = "<group>"; };
 		D4C08FE81E9A266700E96997 /* CameraImagesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraImagesCollectionViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +133,7 @@
 		D44131351E1FDFD20028D768 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D49870851EA17C93003AAB1E /* Main.entitlements */,
 				D44131361E1FDFD30028D768 /* AppDelegate.swift */,
 				D4E5E82D1E82B77700B6FA1A /* Extensions */,
 				D49FA3AE1E33479B00CEF19A /* Model */,
@@ -153,9 +149,6 @@
 				D4D188FE1E96E97E003E875B /* SubstationDocumentViewController.swift */,
 				D4EE22BC1E30E0C500C5BB78 /* HazardsViewController.swift */,
 				D4BB91561E7F1EAF00348F75 /* PhoneTableViewController.swift */,
-				D497D3DA1E812C9D002EE351 /* RecentCallsTableViewController.swift */,
-				D4BB91581E7F4B2900348F75 /* CallViewController.swift */,
-				D420F4AE1E82DE7400A932B4 /* DialViewController.swift */,
 				D4BAC3BC1E481D6800406F8B /* VideoDetailViewController.swift */,
 				D4EFBE531E46139F00545E7B /* VideoTableViewController.swift */,
 				D47E96CE1E3E581200520C53 /* Main.storyboard */,
@@ -174,9 +167,9 @@
 				D49B0BD11E8D516400C608AA /* DocumentStruct.swift */,
 				D49B0BD31E8D526D00C608AA /* HazardStruct.swift */,
 				D49B0BD51E8D531A00C608AA /* PhoneInfoStruct.swift */,
-				D49B0BD71E8D558800C608AA /* RecentCallStruct.swift */,
 				D49B0BD91E8D568800C608AA /* VideoInfoStruct.swift */,
 				D4C08FE61E9A25BC00E96997 /* CamPicInfoStruct.swift */,
+				D4A18FDF1EA4FEBC006F7AB8 /* AppUtility.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -229,6 +222,9 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
 								enabled = 0;
 							};
 						};
@@ -320,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A18FE01EA4FEBC006F7AB8 /* AppUtility.swift in Sources */,
 				D4EE22BD1E30E0C500C5BB78 /* HazardsViewController.swift in Sources */,
 				D4B877001E27F1B100604B68 /* SubstationDetailedViewController.swift in Sources */,
 				D404671F1E241BA2002B4638 /* LoginViewController.swift in Sources */,
@@ -333,14 +330,10 @@
 				D4EFBE541E46139F00545E7B /* VideoTableViewController.swift in Sources */,
 				D4C08FE71E9A25BC00E96997 /* CamPicInfoStruct.swift in Sources */,
 				D4D2265D1E89319200528DFB /* SubstationStruct.swift in Sources */,
-				D497D3DB1E812C9D002EE351 /* RecentCallsTableViewController.swift in Sources */,
 				D44131391E1FDFD30028D768 /* ViewController.swift in Sources */,
-				D49B0BD81E8D558800C608AA /* RecentCallStruct.swift in Sources */,
 				D44131371E1FDFD30028D768 /* AppDelegate.swift in Sources */,
-				D420F4AF1E82DE7400A932B4 /* DialViewController.swift in Sources */,
 				D49B0BD21E8D516400C608AA /* DocumentStruct.swift in Sources */,
 				D49B0BD41E8D526D00C608AA /* HazardStruct.swift in Sources */,
-				D4BB91591E7F4B2900348F75 /* CallViewController.swift in Sources */,
 				D4D188FF1E96E97E003E875B /* SubstationDocumentViewController.swift in Sources */,
 				D49B0BDA1E8D568800C608AA /* VideoInfoStruct.swift in Sources */,
 				D49B0BD61E8D531A00C608AA /* PhoneInfoStruct.swift in Sources */,
@@ -470,6 +463,7 @@
 			baseConfigurationReference = 492FF80AB66A834B42AB70F1 /* Pods-Main.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2A6G795X8F;
 				INFOPLIST_FILE = Main/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
@@ -485,6 +479,7 @@
 			baseConfigurationReference = 36225D71A3467CC43B60706A /* Pods-Main.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2A6G795X8F;
 				INFOPLIST_FILE = Main/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;

@@ -81,6 +81,6 @@ class SubstationDetailedViewController: UIViewController {
         }
     }
     
-    
+ 
     
 }
